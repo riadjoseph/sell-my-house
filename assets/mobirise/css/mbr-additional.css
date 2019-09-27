@@ -1279,9 +1279,11 @@ section.lazy-placeholder:after {
   color: initial;
 }
 .cid-rDgal2k8Dv {
-  padding-top: 150px;
-  padding-bottom: 150px;
   background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-rDgal2k8Dv .mbr-text,
+.cid-rDgal2k8Dv .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-rDgamdtXN9 {
   padding-top: 45px;
