@@ -25,6 +25,31 @@
   
   
   <meta name="robots" content="noindex">
+<!-- Global site tag (gtag.js) - Google Ads: 735910218 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-735910218"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-735910218');
+</script>
+<!-- Event snippet for Lead realty conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-735910218/2DaRCOaW2awBEMqy9N4C',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
